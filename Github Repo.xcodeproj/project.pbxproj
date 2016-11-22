@@ -15,6 +15,7 @@
 		41BC03CB1DE3A8AB00C2C2D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41BC03C91DE3A8AB00C2C2D3 /* LaunchScreen.storyboard */; };
 		41BC03D61DE3A8AB00C2C2D3 /* Github_RepoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BC03D51DE3A8AB00C2C2D3 /* Github_RepoTests.m */; };
 		41BC03E11DE3A8AB00C2C2D3 /* Github_RepoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BC03E01DE3A8AB00C2C2D3 /* Github_RepoUITests.m */; };
+		41BC03F01DE3C1E400C2C2D3 /* cellRepo.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BC03EF1DE3C1E400C2C2D3 /* cellRepo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		41BC03DC1DE3A8AB00C2C2D3 /* Github RepoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Github RepoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41BC03E01DE3A8AB00C2C2D3 /* Github_RepoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Github_RepoUITests.m; sourceTree = "<group>"; };
 		41BC03E21DE3A8AB00C2C2D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41BC03EE1DE3C1E400C2C2D3 /* cellRepo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellRepo.h; sourceTree = "<group>"; };
+		41BC03EF1DE3C1E400C2C2D3 /* cellRepo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellRepo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		41BC03AF1DE3A8AB00C2C2D3 = {
 			isa = PBXGroup;
 			children = (
+				41BC03EE1DE3C1E400C2C2D3 /* cellRepo.h */,
+				41BC03EF1DE3C1E400C2C2D3 /* cellRepo.m */,
 				41BC03BA1DE3A8AB00C2C2D3 /* Github Repo */,
 				41BC03D41DE3A8AB00C2C2D3 /* Github RepoTests */,
 				41BC03DF1DE3A8AB00C2C2D3 /* Github RepoUITests */,
@@ -276,6 +281,7 @@
 				41BC03C31DE3A8AB00C2C2D3 /* ViewController.m in Sources */,
 				41BC03C01DE3A8AB00C2C2D3 /* AppDelegate.m in Sources */,
 				41BC03BD1DE3A8AB00C2C2D3 /* main.m in Sources */,
+				41BC03F01DE3C1E400C2C2D3 /* cellRepo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
